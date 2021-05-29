@@ -3,6 +3,9 @@
 	background-color: #FFFFFF;
 	display: inline-block;
 	position: relative;
+	a {
+		display: block;
+	}
 	&::before {
 		content: '';
 		position: absolute;
