@@ -1,0 +1,26 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700);
+
+//<ОБНУЛЕНИЕ, ОБЩИЕ ПАРАМЕТРЫ>===============================================================================================
+*{padding: 0px;margin: 0px;border: 0px;}
+*,*:before,*:after{box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+aside,nav,footer,header,section{display: block;}
+html,body{min-height: 100%;margin: 0;padding: 0;min-width: $minwidth+px;position: relative;width: 100%;}
+body{font-size: 100%;line-height: 1;font-size: 15px;font-family: $fontfamily;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;overflow-x: hidden;color:#000;overflow-anchor: none;}
+body.lock {
+	overflow: hidden;
+}
+input,button,textarea{font-family: sans-serif, sans-serif;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-weight: inherit;font-size: inherit;}
+
+//<ОСНОВНАЯ СЕТКА>===========================================================================================================
+.container{max-width:1438px;margin: 0 auto;width: 100%;padding: 0 24px;}

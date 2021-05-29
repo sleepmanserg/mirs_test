@@ -1,0 +1,23 @@
+.products {
+	padding: 40px 0;
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__col {
+		flex: 0 0 20%;
+		max-width: 20%;
+		@media (max-width: $md3 + px) {
+			flex: 0 0 33.33333%;
+			max-width: 33.33333%;
+		}
+		@media (max-width: $md4 + px) {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
+		@media (max-width: 360px) {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+	}
+}
