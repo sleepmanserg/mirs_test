@@ -98,6 +98,16 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 42px;
 }
 
+.btn-delete, .btn-clear {
+  color: #000;
+  -webkit-transition: color .25s;
+  transition: color .25s;
+}
+
+.btn-delete:hover, .btn-clear:hover {
+  color: #e43831;
+}
+
 .card {
   padding: 16px;
   background-color: #FFFFFF;

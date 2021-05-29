@@ -1,0 +1,10 @@
+.btn {
+	&-delete,
+	&-clear {
+		color: #000;
+		transition: color .25s;
+		&:hover {
+			color: $red-accent;
+		}
+	}
+}
