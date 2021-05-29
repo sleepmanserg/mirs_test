@@ -1,6 +1,6 @@
 # mirs_test
 Mirs test task
 
-run npm install 
+run 'npm install'
 
-then build with gulp command
+then build with 'gulp' command
