@@ -3,6 +3,7 @@
 	&-clear {
 		color: #000;
 		transition: color .25s;
+		cursor: pointer;
 		&:hover {
 			color: $red-accent;
 		}
